@@ -5,7 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # === 引入依赖 ===
-include(cmake/FetchDependencies.cmake)
+# include(cmake/FetchDependencies.cmake)
+include(cmake/Dependencies.cmake)
 
 # === 核心库 ===
 add_library(mvgeom_core
